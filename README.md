@@ -11,7 +11,7 @@
 Для сборки билда `npm run build` или `yarn build`
 
 ### Ссылки
-Vercel:   
+Vercel: https://test-work-softlex.vercel.app/  
 Github: https://github.com/DanyKuzmenko  
 Gitlab: https://gitlab.com/dankuzmenko  
 tg: @dankuzmenko
