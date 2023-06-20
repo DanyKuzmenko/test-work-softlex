@@ -1,0 +1,35 @@
+@import "../../utils/scss/vars";
+@import "../../utils/scss/mixins";
+
+.input {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: end;
+  border-radius: $br-radius-base;
+  border: $br-base;
+  transition-duration: $ts-duration-base;
+  outline: none;
+  @include fs($r, $fz-base, 20px, $black);
+  box-sizing: border-box;
+
+  &:hover,
+  &:focus {
+    border: $br-dark;
+  }
+
+  &:disabled {
+    border: $br-base;
+    background-color: unset;
+  }
+
+  // Убираем стрелки
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &_active {
+    @include fs($b, $fz-base, 20px, $black);
+  }
+}

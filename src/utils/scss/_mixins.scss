@@ -1,0 +1,9 @@
+// Миксины используемые в проекте
+
+// Шрифт
+@mixin fs($weight, $size, $height, $color) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}

@@ -1,0 +1,15 @@
+@import "../../utils/scss/vars";
+@import "../../utils/scss/mixins";
+
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  &__message {
+    @include fs($r, $fz-xl, 100%, $error);
+    text-align: center;
+  }
+}

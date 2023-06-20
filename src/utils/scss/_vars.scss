@@ -1,0 +1,32 @@
+// Переменный scss, которые используются в проекте
+
+// Цвета в проекте
+$white: #fff;
+$black: #242424;
+$gray: #B5B8B1;
+$error: #E32636;
+
+// Размеры шрифтов
+$fz-sm: 14px;
+$fz-base: 16px;
+$fz-xl: 26px;
+$fz-xxl: 36px;
+
+// Жирность шрифтов
+$r: 400; // Regular
+$b: 700; // Bold
+
+// Border-radius
+$br-radius-base: 8px;
+
+// Borders
+$br-base: 1px solid $gray;
+$br-dark: 1px solid $black;
+
+// Transition-duration
+$ts-duration-base: 0.5s;
+
+// Расширения экранов
+$tablet: 1024px;
+$mob: 768px;
+$sm-mob: 360px;

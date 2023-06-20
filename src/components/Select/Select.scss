@@ -1,0 +1,17 @@
+@import "../../utils/scss/vars";
+@import "../../utils/scss/mixins";
+
+.select {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 20px;
+  border: $br-base;
+  border-radius: $br-radius-base;
+  outline: none;
+  @include fs($r, $fz-base, 20px, $black);
+
+  &:hover {
+    border: $br-dark;
+  }
+}
